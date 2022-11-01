@@ -62,7 +62,30 @@ h1 {
     position: right;
 }
 
+.experience-area {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+
+}
+
 .half-width {
     width: 50%;
     padding-left: 2%;
+    box-shadow: 10px 10px 40px grey;
+    margin-left: 10px;
+    margin-right: 10x;
+}
+
+.orange_color {
+    color: orange;
+}
+
+#full-stack-web-developer {
+    border-left: 7px solid tomato;
+
+}
+
+#baby-web-developer {
+    border-left: 7px solid blue;
 }
