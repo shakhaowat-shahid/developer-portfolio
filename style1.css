@@ -7,35 +7,56 @@ body {
 }
 
 h1 {
-    font-size: 50px;
+    font-size: 40px;
 }
 
 section {
-    display: flex;
+    margin-left: 0;
 }
 
 .one {
     width: 50%;
-    padding: 6px;
-
-
+    padding: 40px;
+    margin-left: 2%
 }
 
 .one img {
-    width: 120%;
+    width: 100%;
 }
 
 .link-button {
     text-decoration: none;
     background-image: linear-gradient(orange, tomato);
-    padding: 10px 40px;
+    padding: 10px 50px;
     border-radius: 5px;
     color: white;
     font-weight: 700;
-    margin-left: 5px;
+    margin: 0px 0px 0px 60px;
+
+
 }
 
 .top-banner {
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
+    display: flex;
+    margin-left: 0;
+}
+
+#one {
+    display: flex;
+    width: 100%;
+    margin-top: 150px;
+
+}
+
+.link-button2 {
+    text-decoration: none;
+    background-image: linear-gradient(orange, tomato);
+    padding: 10px 50px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+    margin: 0px 0px 0px 60px;
+    position: right;
 }
