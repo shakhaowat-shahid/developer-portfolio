@@ -66,6 +66,7 @@ h1 {
     background-image: url(images/exp-bg.png);
     background-repeat: no-repeat;
     background-position: left;
+    margin-bottom: 100px;
 
 }
 
@@ -82,10 +83,14 @@ h1 {
 }
 
 #full-stack-web-developer {
-    border-left: 7px solid tomato;
+    border-left: 7px solid red;
 
 }
 
 #baby-web-developer {
     border-left: 7px solid blue;
+}
+
+footer p {
+    text-align: center;
 }
